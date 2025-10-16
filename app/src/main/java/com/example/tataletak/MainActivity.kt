@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             TataLetakTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Andro",
+                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
