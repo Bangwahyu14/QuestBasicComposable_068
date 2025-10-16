@@ -1,5 +1,7 @@
 package com.example.tataletak
 
+package com.example.tataletak
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -13,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.tataletak.ui.theme.TataLetakTheme
 
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +24,7 @@ class MainActivity : ComponentActivity() {
             TataLetakTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "hp",
+                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
